@@ -1,0 +1,16 @@
+{
+  "name": "ttest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "dev": "postcss css/tailwind.css -o css/main.css",
+      "build": "NODE_ENV=production postcss css/tailwind.css -o css/main.css"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.7",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
